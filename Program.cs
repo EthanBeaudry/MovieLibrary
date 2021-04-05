@@ -16,7 +16,7 @@ namespace MovieLibrary
             var logger = NLog.Web.NLogBuilder.ConfigureNLog(path).GetCurrentClassLogger();
             logger.Info("Program Started");
             
-
+            Console.WriteLine("Tets");
 
             do
             {
